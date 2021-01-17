@@ -82,7 +82,7 @@ final public class EKPopUpMessageView: UIView {
         let buttonAttributes = message.button
         actionButton.buttonContent = buttonAttributes
         actionButton.contentEdgeInsets = UIEdgeInsets(top: 0, left: 30, bottom: 0, right: 30)
-        actionButton.layer.cornerRadius = height * 0.5
+        actionButton.layer.cornerRadius = 5
         actionButton.addTarget(self, action: #selector(actionButtonPressed), for: .touchUpInside)
     }
     
